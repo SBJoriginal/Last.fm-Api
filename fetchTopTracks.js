@@ -31,7 +31,7 @@ async function fetchTrackDetails(artist, track) {
 
 // Function to display the top tracks
 async function displayTopTracks() {
-    const user = 'rj'; // Example user
+    const user = ''; // Example user
     const url = `https://ws.audioscrobbler.com/2.0/?method=user.getTopTracks&user=${user}&api_key=${API_KEY}&format=json&limit=3`;
 
     try {
